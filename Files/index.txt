@@ -1,0 +1,11 @@
+FILES
+
+- Files are sequence of characters formatted using blank spaces and newline characters
+
+open() function
+- This function is used to open file in python
+- syntax:
+            f = open('file_name.extension', 'file_mode')
+
+- This function return a file object attached to file
+- This file handle(file object) is used to perform read, write, update, delete on file
