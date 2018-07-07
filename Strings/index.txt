@@ -1,0 +1,44 @@
+STRINGS
+
+- strings in python are objects of class 'str'
+- + can be used to concatenate
+- chr(character) in python is a string of length 1
+- in python 3, all strings are UNICODE strings i.e. can contain chars
+  defined in unicode char set
+- supports index starting with 0
+
+Type Conversion
+
+- strings containing numbers can be converted to 'int', 'float', 'bool' etc
+
+String Comparision
+
+- str1 < str2 checks lexicographical order
+
+Methods (methods and functions are different
+
+- present in string library
+- these methods don't impact the original string, rather work on a copy
+
+* str.upper()
+* str.lower()
+* str.capitalize()
+    - only first letter capitalized
+* str.startswith('string')
+* str.endswith('string')
+* str.strip()
+* str.lstrip()
+* str.rstrip()
+* str.find('substring', start, end)
+    - finds the first instance and returns index
+    - returns -1 if not found
+    - start and end are optional
+
+* str.replace('old', 'new', count)
+    - replaces all occurrences of old with new
+    - count is optional
+    - replaces only count occurrences if argument is given
+
+* str.split('separator')
+    - returns separated words in list
+    -
